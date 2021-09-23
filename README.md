@@ -16,6 +16,13 @@ bin/pulsar-client consume "persistent://public/default/nvidia-sensor-partition-0
 
 ```
 
+## Build This in the Cloud
+
+```
+bash -c "$(curl -fsSL https://storage.googleapis.com/downloads.streamnative.cloud/snctl/install.sh)"
+
+```
+
 ## Flink SQL Manual Table DDL
 
 ```
@@ -54,3 +61,7 @@ CREATE TABLE default_catalog.default_database.nvidiasensor
 * https://www.datainmotion.dev/2019/05/dataworks-summit-dc-2019-report.html
 * https://www.datainmotion.dev/2019/03/using-raspberry-pi-3b-with-apache-nifi.html
 * https://github.com/tspannhw/ApacheDeepLearning302
+* https://github.com/tspannhw/minifi-xaviernx
+* https://github.com/tspannhw/SpeakerProfile/tree/main/2021/talks
+* https://console.streamnative.cloud/
+* https://docs.streamnative.io/
